@@ -16,7 +16,7 @@ public class NewsFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View testView = inflater.inflate(R.layout.news_layout,container,false);
         TextView testText = (TextView)testView.findViewById(R.id.test);
-        testText.setText("现在老子成功了！！！");
+        testText.setText("(づ￣ 3￣)づ 么么哒");
         return testView;
     }
 }

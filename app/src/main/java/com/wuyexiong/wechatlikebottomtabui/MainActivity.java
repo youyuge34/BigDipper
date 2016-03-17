@@ -70,7 +70,7 @@ public class MainActivity extends ActionBarActivity {
         private void setupViews(View view) {
             mAdapter = new TestFragmentAdapter(getFragmentManager());
             mPager = (ViewPager) view.findViewById(R.id.tab_pager);
-            mPager.setAdapter(mAdapter);
+//            mPager.setAdapter(mAdapter);
             mTabLayout = (MainBottomTabLayout) view.findViewById(R.id.main_bottom_tablayout);
             mTabLayout.setViewPager(mPager);
         }
